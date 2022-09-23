@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  float: left;
+  margin: 15px 19px;
+  font-size: 18px;
+}
+ul li a {
+  text-decoration: none;
+  color: brown;
+}
+.gd {
+  margin-left: 317px;
+  margin-top: -49px;
+}
+
+.imglogo {
+  margin-top: 43px;
+  margin-left: 143px;
+}
+li:hover a {
+  border: 2px solid rgb(85, 84, 84);
+  padding: 5px 5px;
+  transition: 0.3s;
+}
+.zero {
+  width: -1px;
+  height: 22px;
+  background-color: brown;
+  color: white;
+  font-size: 19px;
+  position: absolute;
+  border-radius: 50%;
+  text-align: center;
+}
+.dd {
+  width: 300px;
+  height: 200px;
+  border: 3px solid black;
+  background-color: wheat;
+  margin-top: 53px;
+  margin-left: 335px;
+  font-size: 25px;
+  text-align: center;
+  padding: 15px 5px;
+  opacity: 0;
+}
+.po:hover section {
+  opacity: 1;
+}
+.img2 {
+  width: 80%;
+  height: 485px;
+  margin-top: -130px;
+  text-align: center;
+  margin-left: 10%;
+}
+/* catigory*/
+ h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+}
+.thing {
+  width: 80%;
+  margin-top: 44px;
+  text-align: center;
+  margin-left: 10%;
+}
+.th1,
+.th2,
+.th3,
+.th4 {
+  width: 20%;
+  height: 300px;
+  float: left;
+  margin: 10px 25px;
+}
+.thing .icon {
+  background-color: brown;
+  width: 55px;
+  height: 30px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+}
+.th1:hover .i1 {
+  visibility: visible;
+  opacity: 1;
+}
+.th2:hover .i2 {
+    visibility: visible;
+    opacity: 1;
+  }
+  .th3:hover .i3{
+    visibility: visible;
+    opacity: 1;
+  }
+  .th4:hover .i4{
+    visibility: visible;
+    opacity: 1;
+  }
+  .info{
+    width: 80%;
+    height: 250px;
+    margin-top: 460px;
+    text-align: center;
+    margin-left: 10%;
+  }
+.info1{
+    width: 46%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+    background-color: rgb(243, 222, 222);
+    color: black;
+}
+.info3,.info2{
+    width: 20%;
+    height: 100%;
+    float: left;
+margin: 0 5px;
+margin-left: 50px;
+transition: 1s ease;
+}
+.info3 :hover{
+    transform: scale(1.1);
+}
+.info2 :hover{
+    transform: scale(1.1);
+}
+.iiccoonn{
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.h{
+    text-align: center;
+    font-size: 45px;
+    opacity: 0.5;
+    text-align: center;
+    margin-left: 72px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.ii1{
+    width: 20%;
+}
+.fr:hover{
+    transform: rotate(360deg);
+    color: brown;
+}
+.fr2:hover{
+    transform: rotate(360deg);
+    color: brown;
+}
+.fr3:hover{
+    transform: rotate(360deg);
+    color: brown;
+}
+.fr4:hover{
+    transform: rotate(360deg);
+    color: brown;
+}
+.fr5:hover{
+    transform: rotate(360deg);
+    color: brown;
+}
+.pro{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin-left: 10%;
+}
+.pro111{
+    position: relative;
+    transform-style: preserve-3d ;
+ transition:  1s;
+}
+.pro111:hover{
+    transform: rotateY(-180deg);
+}
+.iconconact .g{
+    background-color: rgb(121, 70, 70);
+    width: 50px;
+    height: auto;
+    color: white;
+    text-align: center;
+}
